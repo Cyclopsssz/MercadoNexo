@@ -1,4 +1,4 @@
-\# MercadoNexo
+# MercadoNexo
 
 
 
@@ -6,7 +6,7 @@ Proyecto desarrollado para la evaluación EPE3 de la asignatura Desarrollo Web I
 
 
 
-\## Descripción
+## Descripción
 
 
 
@@ -14,53 +14,53 @@ MercadoNexo es una aplicación web para administrar productos tecnológicos y su
 
 
 
-\## Tecnologías utilizadas
+## Tecnologías utilizadas
 
 
 
-\- Java JDK 21
+- Java JDK 21
 
-\- Apache NetBeans
+- Apache NetBeans
 
-\- Maven
+- Maven
 
-\- Jakarta EE 10
+- Jakarta EE 10
 
-\- Eclipse GlassFish
+- Eclipse GlassFish
 
-\- JPA / EclipseLink
+- JPA / EclipseLink
 
-\- JPQL
+- JPQL
 
-\- JSP
+- JSP
 
-\- Microsoft SQL Server
-
-
-
-\## Funcionalidades
+- Microsoft SQL Server
 
 
 
-\- Registrar productos.
-
-\- Consultar productos registrados.
-
-\- Editar productos existentes.
-
-\- Eliminar productos.
-
-\- Registrar categorías.
-
-\- Relacionar productos con categorías.
-
-\- Ejecutar consultas JPQL generales y parametrizadas.
-
-\- Ejecutar operaciones UPDATE y DELETE masivas mediante JPQL.
+## Funcionalidades
 
 
 
-\## Arquitectura
+- Registrar productos.
+
+- Consultar productos registrados.
+
+- Editar productos existentes.
+
+- Eliminar productos.
+
+- Registrar categorías.
+
+- Relacionar productos con categorías.
+
+- Ejecutar consultas JPQL generales y parametrizadas.
+
+- Ejecutar operaciones UPDATE y DELETE masivas mediante JPQL.
+
+
+
+## Arquitectura
 
 
 
@@ -68,15 +68,15 @@ La aplicación utiliza el patrón Modelo-Vista-Controlador (MVC).
 
 
 
-\- Modelo: entidades JPA y clases DAO.
+- Modelo: entidades JPA y clases DAO.
 
-\- Vista: archivos JSP para productos y categorías.
+- Vista: archivos JSP para productos y categorías.
 
-\- Controlador: Servlets que procesan las solicitudes HTTP.
+- Controlador: Servlets que procesan las solicitudes HTTP.
 
 
 
-\## Base de datos
+## Base de datos
 
 
 
@@ -88,35 +88,35 @@ Para preparar la base de datos:
 
 
 
-1\. Crear una base de datos llamada MercadoNexoDB en SQL Server, si todavía no existe.
+1. Crear una base de datos llamada MercadoNexoDB en SQL Server, si todavía no existe.
 
-2\. Revisar y ejecutar el script SQL en esa base de datos.
+2. Revisar y ejecutar el script SQL en esa base de datos.
 
-3\. Configurar el acceso mediante autenticación SQL Server.
+3. Configurar el acceso mediante autenticación SQL Server.
 
-4\. Habilitar TCP/IP y el puerto correspondiente.
-
-
-
-\## Configuración y ejecución
+4. Habilitar TCP/IP y el puerto correspondiente.
 
 
 
-1\. Instalar JDK 21, Apache NetBeans, Maven, GlassFish y SQL Server.
+## Configuración y ejecución
 
-2\. Abrir el proyecto Maven en NetBeans.
 
-3\. Preparar la base de datos MercadoNexoDB.
 
-4\. Configurar en GlassFish un pool JDBC llamado MercadoNexoPool con los datos de conexión locales.
+1. Instalar JDK 21, Apache NetBeans, Maven, GlassFish y SQL Server.
 
-5\. Crear el recurso JDBC jdbc/MercadoNexoDS asociado al pool.
+2. Abrir el proyecto Maven en NetBeans.
 
-6\. Comprobar la conexión desde GlassFish mediante Ping.
+3. Preparar la base de datos MercadoNexoDB.
 
-7\. Compilar el proyecto para generar el archivo WAR.
+4. Configurar en GlassFish un pool JDBC llamado MercadoNexoPool con los datos de conexión locales.
 
-8\. Desplegar el WAR en GlassFish con el contexto /MercadoNexo.
+5. Crear el recurso JDBC jdbc/MercadoNexoDS asociado al pool.
+
+6. Comprobar la conexión desde GlassFish mediante Ping.
+
+7. Compilar el proyecto para generar el archivo WAR.
+
+8. Desplegar el WAR en GlassFish con el contexto /MercadoNexo.
 
 
 
@@ -128,19 +128,19 @@ http://localhost:8080/MercadoNexo/
 
 
 
-\## Módulos
+## Módulos
 
 
 
-\- /MercadoNexo/productos
+- /MercadoNexo/productos
 
-\- /MercadoNexo/categorias
+- /MercadoNexo/categorias
 
-\- /MercadoNexo/prueba-jpql
+- /MercadoNexo/prueba-jpql
 
 
 
-\## Seguridad
+## Seguridad
 
 
 
@@ -148,7 +148,7 @@ Las credenciales de SQL Server deben configurarse localmente en GlassFish. No se
 
 
 
-\## Evaluación
+## Evaluación
 
 
 
